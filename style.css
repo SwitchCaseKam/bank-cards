@@ -34,7 +34,7 @@ body {
     }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1081px) {
     body {
         font-size: 50%;
     }
