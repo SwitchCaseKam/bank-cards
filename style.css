@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Quantico:ital,wght@0,400;0,700;1,700&family=Saira+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: green;
+    background: url("images/night-town.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 3em;
+}
+
+.page-title {
+    margin: 2em;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 2em;
+}
+
+.cards-area {
+    display: flex;
+    gap: 5em;
+}
+
+@media screen and (max-width: 1366px) {
+    .cards-area {
+        flex-direction: column;
+    }
+    .page-title {
+        margin-bottom: 1em;
+    }
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.credit-card {
+    border: 1px solid black;
+    border-radius: 1.2em;
+    width: 40em;
+    height: 25.3em;
+    background-color: rgb(255, 88, 18);
+    animation: jumping 1s alternate infinite;
+    box-shadow: 0 10px 50px -10px black;
+}
+
+.credit-card:hover {
+    transform: scale(1.01);
+    animation: none;
+    cursor: pointer;
+    box-shadow: 0 50px 80px -10px white;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    margin-top: -1em;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    margin-left: 0.5em;
+}
+
+.bottom {
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bank-basic-info {
+    display: flex;
+    align-items: center;
+    margin-top: 0.7em;
+}
+
+.bank-name {
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    margin: 0.5em;
+    text-transform: uppercase;
+    text-shadow: none;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.top__producent-logo {
+    height: 2.5em;
+    width: 7em;
+    margin-top: -1em;
+}
+
+.bank-logo {
+    color:white;
+    width: 3.6em;
+    height: 2.5em;
+}
+
+.middle__chip {
+    width: 4em;
+}
+
+.middle__left-arrow {
+    width: 3em;
+    height: 3em;
+}
+
+.paypass-logo {
+    transform: rotate(90deg);
+    height: 5em;
+    width: 5em;
+}
+
+.middle__additional-text {
+    font-size: 1.6em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.bottom__account-number {
+    text-transform: uppercase;
+    font-size: 3.2em;
+    margin: 0em;
+    letter-spacing: 0.12em;
+    text-shadow: 0 2px 0 black;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.validation-info {
+    display: flex;
+    align-items: center;
+    margin-top: 0.7em;
+}
+
+.validation-info__text {
+    font-size: 0.72em;
+    text-shadow: none;
+    font-family: 'PT Sans', sans-serif;
+    margin-right: 1em;
+}
+
+.validation-info__valid-date {
+    font-size: 1.6em;
+    margin: 0;
+    text-shadow: 0 2px 0 black;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.bottom__owner-name {
+    text-transform: uppercase;
+    margin: 0;
+    align-self: flex-start;
+    margin-left: 2em;
+    font-size: 1.6em;
+    text-shadow: 0 2px 0 black;
+    letter-spacing: 0.15em;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+@keyframes jumping {
+    from {
+        transform: translateY(1em);
+    }
+}
+
+
+/* Millennium extension*/
+#millennium-example-card {
+    background-image: linear-gradient(to left top, #c32e7d, #b62972, #aa2368, #9d1e5e, #911954, #851e51, #7a214e, #6f234a, #622a49, #552f46, #483241, #3d343b);
+}
+
+.middle--millennium {
+    justify-content: space-between;
+    margin: 0 2em 0 3.6em;
+}
+
+.bank-logo--millennium {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    height: 5em;
+    margin: 1em;
+}
+
+.top--millennium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.2em;
+}
+
+.top--millennium__name {
+    font-size: 3.4em;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-family: 'Mukta', sans-serif;
+    padding-bottom: 0px;
+}
+
+.top--millennium__second-text {
+    font-size: 1.2em;
+    align-self: space-between;
+    font-family: 'Mukta', sans-serif;
+    margin-left: 6.5em;
+}
+
+.left-right-areas {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10em;
+}
+
+.validation-info--millennium {
+    align-self: flex-end;
+}
+
+.left-right-areas__left {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+}
+
+.left-right-areas__right {
+    align-self: flex-end;
+    text-align: right;
+}
