@@ -14,6 +14,6 @@ Application available at https://switchcasekam.github.io/bank-cards/
 
 ----
 
-![alt text](https://github.com/SwitchCaseKam/bank-cards/blob/main/example-pic.jpg?raw=true)
+![alt text](https://github.com/SwitchCaseKam/bank-cards/blob/main/example-pic.JPG?raw=true)
 
 ---
