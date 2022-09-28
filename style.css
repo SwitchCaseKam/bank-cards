@@ -28,12 +28,19 @@ body {
     gap: 5em;
 }
 
-@media screen and (max-width: 1366px) {
+@media (max-width: 1366px) {
     .cards-area {
         flex-direction: column;
     }
-    .page-title {
-        margin-bottom: 1em;
+}
+
+@media (max-width: 800px) {
+    body {
+        font-size: 50%;
+    }
+
+    .cards-area {
+        flex-direction: column;
     }
 }
 
@@ -243,3 +250,4 @@ a {
     align-self: flex-end;
     text-align: right;
 }
+
