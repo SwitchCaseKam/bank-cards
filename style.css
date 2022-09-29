@@ -21,6 +21,7 @@ body {
     font-size: 3em;
     margin: 0;
     margin-bottom: 2em;
+    animation: fade-in 2s;
 }
 
 .cards-area {
@@ -186,6 +187,11 @@ a {
     from {
         transform: translateY(1em);
     }
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 
