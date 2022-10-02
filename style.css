@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 3em;
+    font-size: 85%;
 }
 
 .page-title {
@@ -26,6 +27,8 @@ body {
 
 .cards-area {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 5em;
 }
 
@@ -249,7 +252,7 @@ a {
 .left-right-areas__left {
     display: flex;
     flex-direction: column;
-    width: 20em;
+    min-width: 20em;
 }
 
 .left-right-areas__right {
@@ -257,3 +260,30 @@ a {
     text-align: right;
 }
 
+
+/* Revolut */
+#revolut-example-card {
+    background-image: linear-gradient(to left bottom, #05429f, #4745b9, #7a43cd, #ad36db, #e103e1);
+}
+
+.top--revolut {
+    margin-top: 0.3em;
+    margin-left: 2em;
+}
+
+.middle--revolut {
+    justify-content: space-between;
+    margin: 2em 3em 0 3.6em;
+}
+
+.validation-info--revolut {
+    flex-direction: column;
+    margin-left: 12em;
+}
+
+.bank-logo--revolut {
+    width: 8em;
+    height: 2em;
+    color: white;
+
+}
