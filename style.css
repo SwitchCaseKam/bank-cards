@@ -13,6 +13,8 @@ body {
     background-attachment: fixed;
     margin-bottom: 3em;
     font-size: 85%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .page-title {
@@ -188,7 +190,7 @@ a {
 
 @keyframes jumping {
     from {
-        transform: translateY(1em);
+        transform: translateY(1.8em);
     }
 }
 
