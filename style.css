@@ -295,3 +295,108 @@ a {
     color: white;
 
 }
+
+/* ING backside */
+.top-back {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+
+}
+
+.top-back__texts {
+   display: flex;
+   justify-content: space-between;
+   padding: 0.5em;
+   padding-left: 1.25em;
+   padding-top: 1em;
+   font-size: 0.75em;
+   color: black;
+}
+
+.top-back__magnetic-line {
+    align-self: flex-start;
+    width: 100%;
+    height: 5.5em;
+    background-color: black;
+    margin: 0
+}
+
+.middle-back {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+.middle-back__mandatory-data {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.mandatory-data-back {
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.signature-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        #5e99c9,
+        #5e99c9 40%,
+        #ddd589 40%,
+        #ddd589
+    );
+    background-size: 100% 0.5em;
+    height: 4em;
+    width: 25em;
+    font-family:fantasy;
+    color: black;
+}
+
+.cvv-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    width: 4em;
+    font-style: italic;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aditional-item {
+    font-size: 1.25em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.middle-back__additional-info {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.information-text {
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.8em;
+}
+
+.dove__hologram-picture {
+    max-width: 8em;
+    max-height: 5em;
+    border-radius: 10px;
+} 
+
+.bottom-back {
+
+}
+
