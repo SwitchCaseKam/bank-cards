@@ -327,6 +327,8 @@ a {
     display: flex;
     flex-direction: column;
     margin: 2em;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 0;
 }
 
 .middle-back__mandatory-data {
@@ -382,6 +384,7 @@ a {
 .middle-back__additional-info {
     display: grid;
     grid-template-columns: 20% 80%;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .information-text {
@@ -397,6 +400,31 @@ a {
 } 
 
 .bottom-back {
-
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 0;
 }
 
+/* Millennium backside*/
+.millennium--top-back-text {
+    color: white;
+}
+
+.bottom-back__millennium-name {
+    border-bottom: 1px solid white;
+    font-family: 'Mukta', sans-serif;
+    padding: 0px;
+}
+
+.millennium--information-text {
+    color: white;
+}
+
+/* Revolut backside*/
+.revolut--top-back-text {
+    color: white;
+}
+
+.bottom-back__revolut-name {
+    margin-top: 2em;
+    margin-left: 1em;
+}
