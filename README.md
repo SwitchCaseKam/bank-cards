@@ -2,9 +2,10 @@
 
 ---
 
-Simple application to present Credit Cards UI Designs.<br>
-Created with only html and css.<br>
-Cards contains example data, click on it redirect to bank website.
+Simple application to present Credit Cards UI Designs (front and back sides).<br>
+Used technology: HTML, CSS, JS<br>
+
+Cards contains example data, click on card to flip it to reverse side.
 <br>
 
 

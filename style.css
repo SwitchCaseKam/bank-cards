@@ -54,11 +54,6 @@ p {
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 .credit-card {
     position: absolute;
     border: 1px solid black;
@@ -72,11 +67,8 @@ a {
 }
 
 .credit-card:hover {
-    transform: scale(1.01);
-    animation: none;
     cursor: pointer;
     box-shadow: 0 50px 80px -10px white;
-    transform: rotateY(180deg);
 }
 
 .top {
@@ -431,7 +423,7 @@ a {
 }
 
 /* reverse on hover */
-.maincontainer {
+.card {
     position: relative;
     width: 40em;
     height: 25.3em;
